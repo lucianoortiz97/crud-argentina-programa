@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: medium;
+}
+
+/* Estilo general */
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background-image: url('ruta/a/tu/imagen/bandera-argentina.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    opacity: 0.8; 
+}
+
+/* Estilo de la primera fila */
+#primeraFila {
+    background-color: #8ecae6;
+    border-bottom: 1px solid #fff;
+}
+
+.titulo {
+    font-family: 'Bungee', cursive;
+    font-size: 2em;
+    font-weight: 100;
+    color: white;
+}
+
+#menu {
+    width: 40%; 
+    margin: 0 auto; 
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around;
+    align-items: center;
+}
+.opcionesMenu {
+    color: white;
+    text-decoration: none;
+}
+
+.opcionesMenu:hover {
+    color: #f2f2f2;
+    text-decoration: underline;
+}
+
+/* Estilo del formulario */
+.cuerpo {
+    background-color: #51d1f6;
+    padding: 20px;
+    
+}
+
+#formulario {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 80px;
+    width: 75%; 
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center; 
+}
+
+.contenidoForm {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.txtFormulario {
+    width: 50%; 
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center; 
+}
+
+.datos {
+    text-align: left;
+    margin-top: 1em;
+    height: 40px;
+}
+
+.txt {
+    width: 100%;
+    border-radius: 5px; 
+    padding: 5px;
+    box-sizing: border-box; 
+}
+
+.bloqueDerecha,
+.bloqueIzquierda {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.inputForm {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px; 
+}
+
+/* Estilo de los botones */
+.botones {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+}
+.boton {
+    margin: 10px; 
+}
+
+#btn1,
+#btn5,
+#btn7,
+#btn8,
+#btn10,
+#btn9 {
+    background-color: #b3e5fc;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px; 
+    text-align: center;
+    font-size: 0.9em; 
+    margin-top: 10px; 
+    width: fit-content; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Estilo del footer */
+.footer {
+    width: 100%;
+    height: 50px; 
+    padding: 10px;
+    margin-top: 20px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.tituloFoot {
+    font-size: 14px;
+    color: white;
+}
+
+/* Estilo específico para el ingreso de administradores */
+.formAdm {
+    width: 100%;
+    margin: 20px auto;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+}
+
+.nombreFormAdm .inputForm {
+    width: 45%;
+    margin: 0 1em;
+}
+
+.alert {
+    font-size: 2em;
+    text-align: center;
+    font-weight: 800;
+    color: red;
+}
+
+/* Estilo adicional para inputs personalizados */
+.txt::placeholder {
+    color: #999;
+    opacity: 1;
+    font-style: italic; 
+}
+
+.txt:-ms-input-placeholder {
+    color: #999;
+}
+
+.txt::-ms-input-placeholder {
+    color: #999;
+}
